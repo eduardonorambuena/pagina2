@@ -1,2 +1,75 @@
-<html>hola mundo</html>
-<title>hola </title>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nutrición y Dietética</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imagenes/logo.png" alt="Logo de la empresa">
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <h1>Bienvenidos a nuestra empresa de Nutrición y Dietética</h1>
+        <p>Te ayudamos a mejorar tu calidad de vida con una alimentación saludable y balanceada.</p>
+        <a href="#contacto" class="btn">Contáctanos</a>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="servicio">
+            <h3>Consultas personalizadas</h3>
+            <p>Recibe asesoría nutricional adaptada a tus necesidades.</p>
+        </div>
+        <div class="servicio">
+            <h3>Planes de alimentación</h3>
+            <p>Elaboramos planes de alimentación saludable y balanceada.</p>
+        </div>
+        <div class="servicio">
+            <h3>Asesoría en suplementos</h3>
+            <p>Te guiamos en la elección de suplementos que complementen tu dieta.</p>
+        </div>
+    </section>
+
+    <!-- Sección sobre nosotros -->
+    <section id="nosotros">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos un equipo de nutricionistas y dietistas dedicados a mejorar tu salud a través de la alimentación.</p>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes preguntas? ¡Escríbenos!</p>
+        <form action="mailto:contacto@nutricionempresa.com" method="get">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo" required>
+            <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nutrición y Dietética. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

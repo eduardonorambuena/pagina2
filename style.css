@@ -1,0 +1,80 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2e7d32;
+    padding: 20px;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section#inicio {
+    background-color: #81c784;
+    color: white;
+}
+
+section#servicios {
+    background-color: #c8e6c9;
+}
+
+.servicio {
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
