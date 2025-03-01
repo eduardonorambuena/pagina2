@@ -17,8 +17,8 @@ header {
 }
 
 header .logo img {
-    max-width: 10px;  /* Tamanho máximo del logo */
-    height: auto;     /* Mantener la proporción */
+    max-width: 150px;  /* Tamaño adecuado del logo (ajústalo según necesites) */
+    height: auto;      /* Mantener la proporción */
 }
 
 header nav {
