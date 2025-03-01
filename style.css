@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #2e7d32;
+    background-color: #9c4dcc; /* Morado claro */
     padding: 20px;
     color: white;
 }
@@ -47,12 +47,12 @@ section {
 }
 
 section#inicio {
-    background-color: #81c784;
+    background-color: #c97df0; /* Morado suave */
     color: white;
 }
 
 section#servicios {
-    background-color: #c8e6c9;
+    background-color: #e3b3f1; /* Morado más suave */
 }
 
 .servicio {
@@ -60,7 +60,7 @@ section#servicios {
 }
 
 button {
-    background-color: #2e7d32;
+    background-color: #9c4dcc; /* Morado claro */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -69,11 +69,11 @@ button {
 }
 
 button:hover {
-    background-color: #388e3c;
+    background-color: #7b2e9e; /* Morado más oscuro */
 }
 
 footer {
-    background-color: #2e7d32;
+    background-color: #9c4dcc; /* Morado claro */
     color: white;
     padding: 10px;
     text-align: center;
