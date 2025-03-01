@@ -16,6 +16,11 @@ header {
     color: white;
 }
 
+header .logo img {
+    max-width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
